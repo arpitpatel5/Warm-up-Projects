@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    font-family: 'Poppins' , sans-serif;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+
+ }
+ nav ul li img{
+    width: 200px;
+ }
+ main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /* Hero left side  */
+ .leftside{
+width: 40%;
+
+ }
+.leftside h1{
+    font-size: 60px;
+    
+
+}
+.leftmain p{
+    margin: 5% 0;
+   
+}
+.leftside  button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color:#3b855b;
+    border-radius: 10px;
+}
+ 
+.rightside {
+    width: 40%;
+    padding: 9%;
+    
+
+}
+.rightside  div img{
+    width: 40%;
+
+}
+.rightside div img:first-child{
+    margin-right: 20px;
+}
+.rightside div{
+    margin-bottom:  20px;
+}
+.rightside > img{
+    width:64%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p{
+    font: weight 900px; 
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+align-items: center;
+}
+footer ul li a i:hover {
+text-decoration: underline;
+font-weight: 900;
+}
